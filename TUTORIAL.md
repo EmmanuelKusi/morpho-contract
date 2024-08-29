@@ -239,7 +239,7 @@ export default config;
 - You can see there is an import for `dotenv` library at the top which we need to install.
 - Install with the following command `npm install dotenv`.
 - Once that is done create a `.env` file and replace with the following content
-```dotenv
+```env
 PRIVATE_KEY=YouPrivateKeyHere
 ITOKEN=AddressOfItokenOnceYouDeploy
 ITOKEN_FAUCET=AddressOfItokenFaucetOnceYouDeploy
